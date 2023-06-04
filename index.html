@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de la Tercera Edad</title>
+</head>
+<body>
+    <fieldset>
+    <legend><b>Club de la Tercera Edad</b></legend>
+    <h2><b>Tu:</b></h2>
+    <ol><li><label for="text">Nombre: </label>
+    <input type="text" id="name" placeholder="Aqui tu nombre"><br>
+    <li><label for="text">Apellidos: </label>
+    <input type="text" id="apellidos" placeholder="Aqui tus apellidos"><br></li>
+    <li><label for="number">Edad: </label>
+    <input type="number" id="edad" placeholder="Aqui tu edad"><br></li>
+    <li><label for="text">Me Siento Viejuner: </label><br>
+    <input type="radio" name="viejo" id="" value="Si">
+    <label for="Si">Si</label>
+    <input type="radio" name="viejo" id="" value="No">
+    <label for="No">No</label><br><br></li>
+    <li><textarea name="textarea" id="" cols="40" rows="5" placeholder="Escribe algo sobre ti:"></textarea></li></ol>
+    <h2><b>Tus Circunstancias:</b></h2>
+    <ol><li><label for="email">Correo Electronico:</label>
+    <input type="email" name="email"></li>
+    <li><label for="tel">Telefono:</label>
+    <input type="tel" name="tel"></li></ol>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Robo de Bicicleta</b></legend>
+        <label for="date">Dia: </label>
+        <input type="date" name="date" id=""><br>
+        <label for="time">Hora: </label>
+        <input type="time" name="time" id=""><br>
+        <label for="color">Color de Bicicleta: </label>
+        <input type="color" name="color" id=""><br>
+        <label for="range">Rango de Precio: </label>
+        <label for="100">100</label>
+        <input type="range" name="range" min="100" max="900">
+        <label for="900">900</label><br>
+        <label for="tipos">Tipos de Bicicleta:</label><br>
+        <ul><li><label for="paseo">Paseo:</label>
+        <select name="paseo" id="paseo">
+        <option value="ninguno">Ninguno</option>
+        <option value="señorial">Señorial</option>
+        <option value="anti-plebeyos">Anti-plebeyos</option>
+        <option value="porencimadelhombro">PorEncimaDelHombro</option>
+        </select></li>
+        <li><label for="montana">Montaña:</label>
+        <select name="montana" id="montana">
+        <option value="ninguno">Ninguno</option>
+        <option value="gamusinos">Gamusinos</option>
+        <option value="hueleflores">Hueleflores Premium</option>
+        <option value="fangolover">Fango Lover</option>
+        </select></li>
+        <li><label for="carreras">Carreras:</label>
+        <select name="carreras" id="carreras">
+        <option value="ninguno">Ninguno</option>
+        <option value="metroymedios">Metroymedio</option>
+        <option value="3delatarde">3 de la tarde (Flourescentes Edition)</option>
+        <option value="grupitors">Grupitors</option>
+        </select></li></ul>
+        <label for="accesorios">Accesorios:</label><br>
+        <select name="accesorios" id="accesorios" multiple>
+        <option value="ruedines">Ruedines</option>
+        <option value="pegatinas">Pegatinas</option>
+        <option value="cestita">Cestita</option>
+        <option value="bombaaire">Bomba de Aire</option>
+        <option value="timbre">Timbre</option>
+        <option value="Foco">Foco</option><br>
+        </select><br>
+        <label for="marca">¿Que marca era?:</label>
+        <input list="marca" name="marca">
+        <datalist id="marca">
+        <option value="Specialized">
+        <option value="Trek">
+        <option value="Merida">
+        <option value="Scott">
+        <option value="Giant">
+        <option value="Cube"></datalist>
+        </fieldset>
+    
+</body>
+</html>
